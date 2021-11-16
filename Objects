@@ -1,0 +1,35 @@
+var input = [{"MemorySummary" :
+               [{"MaximumCapacity" : 2048+" "+"MBytes", 
+                  "MaximumMemoryModuleSize" : 4096+" "+"MBytes",
+                  "MemorySlots":4,"ErrorConnections": "None" ,
+                  "DramFrequncy" : 199.0+" "+"MHz", 
+                  "MemryTiming": 3+"-"+3+"-"+3+"-"+8+"(CL_RCD_RP_RAS)",
+                  "DeviceLocatoe": "Slot1" ,
+                  "Manufacturer" : "Hundai"+"Electronics" ,
+                  "PartNumber" : "HYMD264"+"646D8J",
+                  "SerialNumber": "FFF7240" ,
+                  "Capacity":  512+" "+"MBytes",
+                  "MemoryType":"DDR"+"(PC3200)",
+                 },
+               
+               {
+                  "DeviceLocatoe": "Slot1" ,
+                  "Manufacturer" : "Hundai"+"Electronics" ,
+                  "PartNumber" : "HYMD264"+"646D8J",
+                  "SerialNumber": "FFF7240" ,
+                  "Capacity":  512+" "+"MBytes",
+                  "MemoryType":"DDR"+"(PC3200)",
+                  
+                  
+               }]
+                   
+                   
+               
+      
+        
+    }];
+     
+   
+    console.log(input[0].MemorySummary)
+
+
